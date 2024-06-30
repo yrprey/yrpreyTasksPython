@@ -9,7 +9,7 @@ YrpreyTasksPython is a framework based tasks management systems. The framework p
 #### Features
  - Based on OWASP's top 10 vulnerabilities for Web Application.
 
-Initially, a non-registered user only has access to the index.php page. The user can authenticate to the system with the credentials admin@yrprey.com and the password 1234567890. Functionalities include adding tasks, edit and removals.
+Initially, a non-registered user only has access to the index.php page. The user can authenticate to the system with the credentials admin and the password 1234567890. Functionalities include adding tasks, edit and removals.
 yrprey tasks is not recommended for personal or commercial use, only for laboratory use and learning about exploiting and patching vulnerabilities.
 
 ## The framework was written with the following technologies:
