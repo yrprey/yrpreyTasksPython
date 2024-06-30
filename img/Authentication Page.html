@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost/index.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Page</title>
+    <link href="./Authentication Page_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: calc(100vh - 56px); /* 100vh - height of the navbar */
+            padding-top: 20px;
+        }
+        .text-container, .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .text-container {
+            flex: 1;
+            margin-right: 15px;
+        }
+        .login-container {
+            flex: 1;
+            max-width: 400px;
+        }
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #007bff;
+        }
+    </style>
+    <link rel="icon" href="http://localhost/assets/img/favicon.svg" title="YRprey">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="http://localhost/index.php#"><img src="./Authentication Page_files/logo.webp" width="180"></a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline my-2 my-lg-0" action="http://localhost/index.php" method="post">
+            <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email" name="email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password" name="password">
+            <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Login" name="login">
+        </form>
+    </div>
+</nav>
+
+<div class="container main-content">
+    <div class="text-container">
+            
+        <h2>Welcome to Blog!</h2>
+        <p>This system is based on a Blog but includes vulnerabilities for pentesters, application security professionals, and interested parties to identify and exploit vulnerabilities, such as:
+<br>
+</p><li>SQL Injection</li>
+<li>XSS</li>
+<li>LFI etc.</li>
+    </div>
+    <div class="login-container">
+
+    <br>
+<b>Fatal error</b>:  Uncaught mysqli_sql_exception: Table 'yrpreyblog.users' doesn't exist in C:\xampp\htdocs\index.php:145
+Stack trace:
+#0 C:\xampp\htdocs\index.php(145): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 {main}
+  thrown in <b>C:\xampp\htdocs\index.php</b> on line <b>145</b><br>
+</div></div><div id="acfifjfajpekbmhmjppnmmjgmhjkildl" class="acfifjfajpekbmhmjppnmmjgmhjkildl"></div></body></html>

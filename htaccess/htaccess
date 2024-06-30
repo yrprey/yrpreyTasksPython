@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule Details/.*/(.*?)/ index2.php?id=$1 [L]
+RewriteRule BuyProduct-(.*?)/ indexbkp.php?id=$1 [L]
+RewriteRule RateProduct-(.*?)\.html indexbkp2.php?id=$1 [L]
