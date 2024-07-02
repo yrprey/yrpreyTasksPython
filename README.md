@@ -2,7 +2,7 @@
 
 ![yprey](https://i.imgur.com/zHoDJG9_d.webp?maxwidth=760&fidelity=grand)
 
-**Backend created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
+**Created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
 
 YrpreyTasksPython is a framework based tasks management systems. The framework perfectly simulates a tasks system that can help a user in managing taks and actions, but it has vulnerabilities based on OWASP TOP 10 WebApp 2021. The framework was developed to teach and learn details in Pentest (testing penetration) and Application Security. In the context of Offensive Security, vulnerabilities contained in web applications can be identified, exploited and compromised. For application security professionals and experts, the framework provides an in-depth understanding of code-level vulnerabilities. Yrprey, making it valuable for educational, learning and teaching purposes in the field of Information Security. For more information about the vulnerabilities, we recommend exploring the details available at [yrprey.com](https://yrprey.com).
 
